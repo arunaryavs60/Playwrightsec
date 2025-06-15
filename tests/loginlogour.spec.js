@@ -13,7 +13,7 @@ test('Login and Logout Test Script', async({page})=>{
     // logout
 
     //Logout Action
-    await page.locator("#gettingStartedShortcutsPanelId").click()
+    //await page.locator("#gettingStartedShortcutsPanelId").click()
     await page.locator("//a[@id='logoutLink']").click()
     await page.waitForTimeout(4000)
  
